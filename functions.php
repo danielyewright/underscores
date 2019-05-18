@@ -98,9 +98,8 @@ add_action( 'after_setup_theme', 'underscores_setup' );
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
- * Priority 0 to make it available to lower priority callbacks.
- *
  * @global int $content_width
+ * @link https://developer.wordpress.com/themes/content-width
  */
 function underscores_content_width() {
 	// This variable is intended to be overruled from themes.
